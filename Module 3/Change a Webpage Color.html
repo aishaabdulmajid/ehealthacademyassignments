@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge:Change a Webpage Colour </title>
+
+    <style>
+      h1 {
+        color: Red;
+        font-family: cursive;
+        font-weight: bolder;
+
+      }
+
+      body {
+        text-align: center;
+
+      }
+      button {
+        padding: 20px;
+        background-color: seagreen;
+        color: Yellow;
+        font-weight: bolder;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Wish to Change Webpage Color?</h1>
+
+    <h3>Click button below</h3>
+
+    <button onclick="button()">Click Here</button>
+
+
+    <script>
+      var str = "Click button below";
+
+      function changeColor(color) {
+        document.body.style.background = color;
+      }
+
+      function button() {
+        changeColor("blue");
+
+      }
+    </script>
+  </body>
+</html>

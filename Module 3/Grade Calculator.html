@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Challenge: Grade Calculator</title>
+
+  </head>
+
+  <body>
+
+    <script>
+      var score = prompt("What is your score?");
+      if (score <= 100 && score >= 70) {
+        alert("Your Grade is A");
+        document.write("<h1>Your Grade is: A</h1>");
+
+      } else if (score <= 69 && score >= 50) {
+        alert("Your grade is C");
+        document.write("<h1>Your Grade is: C</h1>");
+
+      } else if (score <= 49 && score >= 0) {
+        alert("Your grade is F");
+        document.write("<h1>Your Grade is F</h1>");
+
+      } else {
+        document.write("<h1>Invalid Score</h1>");
+      }
+
+    </script>
+  </body>
+</html>
